@@ -1,5 +1,5 @@
 .place__paragraph {
-    width: 438px;
+    width: 450px;
     font-weight: normal;
     font-size: 15px;
     line-height: 1.57;
@@ -7,4 +7,9 @@
     padding: 0;
     white-space: pre-line;
     margin-bottom: 105px;
+    margin-left: 84px;
+}
+
+.place:nth-of-type(2n) .place__paragraph {
+    margin-left: 79px;
 }
