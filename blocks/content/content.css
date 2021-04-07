@@ -1,3 +1,13 @@
 .content {
-    
+    align-self: flex-start;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+@media (min-width: 1505px) {
+    .content {
+        width: 1505px;
+        align-self: center;
+    }
 }

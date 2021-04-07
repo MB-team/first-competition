@@ -1,0 +1,10 @@
+.two-rows__title {
+    margin: 0;
+    padding: 0;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 15px;
+    line-height: 100%;
+    font-family: Source Code Pro, monospace;
+    color: #FECDA7;
+}
