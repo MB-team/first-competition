@@ -1,0 +1,13 @@
+.places {
+    background-color: #F2F2F2;
+    width: 100%;
+    align-self: flex-start;
+    display: flex;
+    flex-direction: column;
+}
+
+@media (min-width: 1505px) {
+    .places {
+        align-items: center;
+    }
+}

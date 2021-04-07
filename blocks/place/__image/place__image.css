@@ -1,0 +1,7 @@
+.place__image {
+    width: 752px;
+    height: 627px;
+    object-fit: cover;
+    object-position: center;
+    margin-right: 84px
+}

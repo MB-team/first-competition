@@ -1,0 +1,10 @@
+.place__paragraph {
+    width: 438px;
+    font-weight: normal;
+    font-size: 15px;
+    line-height: 1.57;
+    margin: 0;
+    padding: 0;
+    white-space: pre-line;
+    margin-bottom: 105px;
+}

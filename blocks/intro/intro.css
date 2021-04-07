@@ -1,8 +1,15 @@
 .intro {
     padding-top: 104px;
     padding-bottom: 154px;
-    align-self: flex-start;
     padding-left: 80px;
     display: flex;
     align-items: center;
+}
+
+@media (min-width: 1505px) {
+    .intro {
+        width: 1345px;
+        align-self: center;
+        padding-left: 0;
+    }
 }

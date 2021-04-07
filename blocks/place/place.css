@@ -1,0 +1,9 @@
+.place {
+    display: flex;
+}
+
+@media (min-width: 1505px) {
+    .place {
+        width: 1505px;
+    }
+}
