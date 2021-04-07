@@ -1,0 +1,11 @@
+.header__link-container {
+    list-style-type: none;
+    margin-right: 42px;
+}
+
+.header__link-container:last-of-type {
+    flex-grow: 1;
+    display: flex;
+    justify-content: flex-end;
+    margin-right: 0;
+}

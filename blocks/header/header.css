@@ -1,3 +1,11 @@
 .header {
-    
+    font-family: 'Montserrat', 'Arial', sans-serif;
+    width: calc(100% - 80px);
+    padding-top: 60px;
+}
+
+@media (min-width: 1505px) {
+    .header {
+        width: 1345px;
+    }
 }
