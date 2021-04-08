@@ -1,3 +1,4 @@
 .place__text {
     align-self: center;
+    max-width: 450px;
 }

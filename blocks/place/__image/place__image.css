@@ -3,4 +3,5 @@
     height: 627px;
     object-fit: cover;
     object-position: center;
+    grid-area: image;
 }

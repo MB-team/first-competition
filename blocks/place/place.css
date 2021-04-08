@@ -1,6 +1,11 @@
 .place {
     display: grid;
+    grid-template-areas: 'image description';
     grid-template-columns: repeat(2, 1fr);
+}
+
+.place:nth-of-type(even) {
+    grid-template-areas: 'description image';
 }
 
 @media (min-width: 1505px) {
