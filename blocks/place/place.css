@@ -8,8 +8,8 @@
     grid-template-areas: 'description image';
 }
 
-@media (min-width: 1505px) {
+@media (min-width: 1440px) {
     .place {
-        width: 1505px;
+        width: 1440px;
     }
 }

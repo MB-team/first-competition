@@ -6,7 +6,7 @@
     flex-direction: column;
 }
 
-@media (min-width: 1505px) {
+@media (min-width: 1440px) {
     .places {
         align-items: center;
     }

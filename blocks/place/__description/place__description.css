@@ -1,9 +1,5 @@
 .place__description {
   display: grid;
-  margin-left: 84px;
+  margin-left: 80px;
   grid-area: description;
-}
-
-.place:nth-of-type(even) .place__description {
-  margin-left: 74px;
 }
