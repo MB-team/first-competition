@@ -2,5 +2,13 @@
     align-self: flex-start;
     display: flex;
     flex-direction: column;
+    align-items: center;
     width: 100%;
+}
+
+@media (min-width: 1440px) {
+    .content {
+        width: 1440px;
+        align-self: center;
+    }
 }

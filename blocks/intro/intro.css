@@ -1,15 +1,24 @@
 .intro {
-    padding-top: 104px;
-    padding-bottom: 154px;
-    padding-left: 80px;
+    padding-top: 99px;
+    padding-bottom: 148px;
+    align-self: flex-start;
+    padding-left: 79px;
     display: flex;
     align-items: center;
+    justify-content: space-between;
+    width: 1184px;
 }
 
-@media (min-width: 1505px) {
+@media (max-width: 1333px) {
     .intro {
-        width: 1345px;
+        width: calc(100% - 158px);
         align-self: center;
         padding-left: 0;
+    }
+}
+
+@media (max-width: 1158px) {
+    .intro {
+        width: calc(100% - 48px);
     }
 }
