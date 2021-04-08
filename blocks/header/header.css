@@ -1,10 +1,11 @@
 .header {
-    width: calc(100% - 160px);
-    padding-top: 60px;
+    font-family: 'Montserrat', 'Arial', sans-serif;
+    width: calc(100% - 154px);
+    padding-top: 59px;
 }
 
 @media (min-width: 1505px) {
     .header {
-        width: 1345px;
+        width: 1286px;
     }
 }
