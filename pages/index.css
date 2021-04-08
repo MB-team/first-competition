@@ -2,7 +2,7 @@
 @import url(../vendor/fonts/fonts.css);
 @import url(../blocks/page/page.css);
 
-/* Header styles */
+/* Header */
 @import url(../blocks/header/header.css);
 @import url(../blocks/header/__links/header__links.css);
 @import url(../blocks/header/__link-container/header__link-container.css);
@@ -12,7 +12,6 @@
 @import url(../blocks/content/content.css);
 @import url(../blocks/intro/intro.css);
 @import url(../blocks/intro/__image/intro__image.css);
-
 @import url(../blocks/two-rows/two-rows.css);
 @import url(../blocks/two-rows/__title/two-rows__title.css);
 @import url(../blocks/two-rows/__subtitle/two-rows__subtitle.css);
@@ -25,5 +24,13 @@
 @import url(../blocks/place/__title/place__title.css);
 @import url(../blocks/place/__text/place__text.css);
 @import url(../blocks/place/__paragraph/place__paragraph.css);
+
+/* People */
+@import url(../blocks/people/people.css);
+@import url(../blocks/section-title/section-title.css);
+@import url(../blocks/section-subtitle/section-subtitle.css);
+@import url(../blocks/quotes/quotes.css);
+@import url(../blocks/quotes/__author/quotes__author.css);
+@import url(../blocks/quotes/__text/quotes__text.css);
 
 @import url(../blocks/footer/footer.css);
