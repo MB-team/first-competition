@@ -9,6 +9,15 @@
     width: 1184px;
 }
 
+@media (min-width: 1440px) {
+    .intro {
+        width: 1282px;
+        align-self: center;
+        padding-left: 0;
+        justify-content: flex-start;
+    }
+}
+
 @media (max-width: 1333px) {
     .intro {
         width: calc(100% - 158px);

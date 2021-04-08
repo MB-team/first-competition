@@ -1,3 +1,5 @@
-.two-rows {
-    
+@media (min-width: 1440px) {
+  .two-rows {
+      margin-right: 184px;
+  }
 }

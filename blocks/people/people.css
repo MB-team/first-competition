@@ -1,10 +1,10 @@
 .people {
-  padding: 152px 80px 147px;
+  padding: 152px 77px 147px;
 }
 
 @media (min-width: 1440px) {
   .people {
-      max-width: 1282px;
+      max-width: 1286px;
       margin: 0 auto;
   }
 }
