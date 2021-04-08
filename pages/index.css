@@ -1,11 +1,14 @@
 @import url(../vendor/normalize.css);
 @import url(../vendor/fonts/fonts.css);
 @import url(../blocks/page/page.css);
+
+/* Header styles */
 @import url(../blocks/header/header.css);
 @import url(../blocks/header/__links/header__links.css);
 @import url(../blocks/header/__link-container/header__link-container.css);
 @import url(../blocks/header/__link/header__link.css);
 
+/* Content */
 @import url(../blocks/content/content.css);
 @import url(../blocks/intro/intro.css);
 @import url(../blocks/intro/__image/intro__image.css);
@@ -14,11 +17,13 @@
 @import url(../blocks/two-rows/__title/two-rows__title.css);
 @import url(../blocks/two-rows/__subtitle/two-rows__subtitle.css);
 
+/* Places */
 @import url(../blocks/places/places.css);
 @import url(../blocks/place/place.css);
 @import url(../blocks/place/__image/place__image.css);
-@import url(../blocks/place/__text/place__text.css);
+@import url(../blocks/place/__description/place__description.css);
 @import url(../blocks/place/__title/place__title.css);
+@import url(../blocks/place/__text/place__text.css);
 @import url(../blocks/place/__paragraph/place__paragraph.css);
 
 @import url(../blocks/footer/footer.css);
