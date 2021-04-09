@@ -11,3 +11,22 @@
   justify-content: center;
   align-items: center;
 }
+
+@media (max-width: 1200px) {
+  .footer {
+    padding-top: 22.5%;
+    padding-bottom: 23.4%;
+  }
+}
+
+@media (max-width: 800px) {
+  .footer {
+    font-size: 30px;
+  }
+}
+
+@media (max-width: 500px) {
+  .footer {
+    font-size: 20px;
+  }
+}
