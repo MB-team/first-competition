@@ -1,0 +1,16 @@
+@media (min-width: 1440px) {
+  .intro__two-rows {
+      margin-right: 184px;
+  }
+}
+
+@media (max-width: 864px) {
+  .intro__two-rows {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      margin-right: 0;
+      padding-top: 35px;
+      order: 1;
+  }
+}

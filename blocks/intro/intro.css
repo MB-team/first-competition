@@ -26,8 +26,16 @@
     }
 }
 
-@media (max-width: 1158px) {
+@media (max-width: 1175px) {
     .intro {
         width: calc(100% - 48px);
+    }
+}
+
+@media (max-width: 864px) {
+    .intro {
+        flex-direction: column;
+        padding-bottom: 80px;
+        padding-top: 55px;
     }
 }
