@@ -4,7 +4,14 @@
 
 @media (min-width: 1440px) {
   .people {
-      width: 1286px;
-      margin: 0 auto;
+    width: 1286px;
+    margin: 0 auto;
+  }
+}
+
+@media (max-width: 900px) {
+  .people {
+    padding-left: 25px;
+    padding-right: 25px;
   }
 }
