@@ -3,8 +3,15 @@
     padding-top: 59px;
 }
 
-@media (min-width: 1505px) {
+@media (min-width: 1440px) {
     .header {
         width: 1286px;
+    }
+}
+
+@media (max-width: 864px) {
+    .header {
+        padding-top: 25px;
+        width: calc(100% - 80px);
     }
 }

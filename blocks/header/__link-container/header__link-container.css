@@ -5,7 +5,6 @@
 
 .header__link-container:last-of-type {
     flex-grow: 1;
-    display: flex;
-    justify-content: flex-end;
+    text-align: right;
     margin-right: 0;
 }
