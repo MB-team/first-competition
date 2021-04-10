@@ -1,15 +1,21 @@
 .intro__image {
-    width: 400px;
-    min-width: 400px;
-    height: 400px;
-    object-fit: cover;
-    object-position: center;
+  width: 400px;
+  min-width: 400px;
+  height: 400px;
+  object-fit: cover;
+  object-position: center;
 }
 
 @media (max-width: 648px) {
+  .intro__image {
+    width: 100%;
+    height: 50vh;
+    object-position: top;
+  }
+}
+
+@media (max-width: 580px) {
     .intro__image {
-        width: 100%;
-        height: 50vh;
-        object-position: top;
+      min-width: 100%;
     }
 }

@@ -1,20 +1,20 @@
 .header__link {
-    font-weight: bold;
-    font-size: 13px;
-    color: black;
-    text-decoration: none;
-    transition: opacity 0.3s;
+  font-weight: bold;
+  font-size: 13px;
+  color: black;
+  text-decoration: none;
+  transition: opacity 0.3s;
 }
 
 .header__link:hover {
-    opacity: 0.8;
+  opacity: 0.7;
 }
 
 @media (max-width: 580px) {
-    .header__link {
-        font-size: 15px;
-    }
-    .header__link-container:last-of-type .header__link {
-        color: #FECDA7;
-    }
+  .header__link {
+    font-size: 15px;
+  }
+  .header__link-container:last-of-type .header__link {
+    color: #FECDA7;
+  }
 }

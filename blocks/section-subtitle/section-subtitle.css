@@ -13,3 +13,11 @@
     margin-bottom: 72px;
   }
 }
+
+@media (max-width: 580px) {
+  .section-subtitle {
+    max-width: 90%;
+    min-width: min-content;
+    font-size: 24px;
+  }
+}

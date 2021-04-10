@@ -11,3 +11,9 @@
     max-width: 90%;
   }
 }
+
+@media (max-width: 320px) {
+  .quotes__text {
+    max-width: 100%;
+  }
+}

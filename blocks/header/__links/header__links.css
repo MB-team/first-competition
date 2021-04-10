@@ -1,12 +1,12 @@
 .header__links {
-    margin: 0;
-    padding: 0;
-    display: flex;
-    list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  list-style: none;
 }
 
 @media (max-width: 500px) {
-    .header__links {
-        display: list-item;
-    }
+  .header__links {
+    display: list-item;
+  }
 }

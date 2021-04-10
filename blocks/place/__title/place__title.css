@@ -1,12 +1,19 @@
 .place__title {
-    font-weight: 700;
-    font-size: 34px;
-    line-height: 41px;
-    margin: 71px 0 0 0;
+  font-weight: 700;
+  font-size: 34px;
+  line-height: 41px;
+  margin: 71px 0 0 0;
 }
 
 @media (max-width: 700px) {
-    .place__title {
-        margin-bottom: 23px;
-    }
+  .place__title {
+    margin-bottom: 23px;
+  }
+}
+
+@media (max-width: 580px) {
+  .place__title {
+    margin-top: 48px;
+    font-size: 21px;
+  }
 }
