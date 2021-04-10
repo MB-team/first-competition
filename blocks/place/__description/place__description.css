@@ -6,6 +6,12 @@
   grid-area: description;
 }
 
+@media (max-width: 1080px) {
+  .place__description {
+    margin: 0 48px;
+  }
+}
+
 @media (max-width: 768px) {
   .place__description {
     margin: 0 36px;
