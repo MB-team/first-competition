@@ -4,5 +4,12 @@
   font-weight: bold;
   font-size: 35px;
   line-height: 1.4;
-  width: 520px;
+  max-width: 520px;
+}
+
+@media (max-width: 700px) {
+  .section-subtitle {
+    max-width: 100%;
+    margin-bottom: 72px;
+  }
 }

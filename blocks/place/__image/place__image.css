@@ -6,3 +6,8 @@
     grid-area: image;
 }
 
+@media (max-width: 700px) {
+    .place__image {
+        height: 50vh;
+    }
+}

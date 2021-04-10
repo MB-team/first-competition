@@ -39,3 +39,10 @@
         padding-top: 55px;
     }
 }
+
+@media (max-width: 648px) {
+    .intro {
+        width: 100%;
+        padding-top: 36px;
+    }
+}

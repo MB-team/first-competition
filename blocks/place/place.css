@@ -13,3 +13,16 @@
         width: 1440px;
     }
 }
+
+@media (max-width: 700px) {
+    .place {
+        grid-template-areas: 'image'
+                            'description';
+        grid-template-rows: 1fr;
+        grid-template-columns: 1fr;
+    }
+    .place:nth-of-type(even) {
+        grid-template-areas: 'image'
+                            'description';
+    }
+}

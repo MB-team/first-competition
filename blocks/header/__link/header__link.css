@@ -9,3 +9,12 @@
 .header__link:hover {
     opacity: 0.8;
 }
+
+@media (max-width: 580px) {
+    .header__link {
+        font-size: 15px;
+    }
+    .header__link-container:last-of-type .header__link {
+        color: #FECDA7;
+    }
+}

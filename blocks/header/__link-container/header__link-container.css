@@ -1,5 +1,4 @@
 .header__link-container {
-    list-style-type: none;
     margin-right: 40px;
 }
 
@@ -7,4 +6,22 @@
     flex-grow: 1;
     text-align: right;
     margin-right: 0;
+}
+
+@media (max-width: 580px) {
+    .header__link-container {
+        margin-right: 18px;
+    }
+    .header__link-container:last-of-type  {
+        text-align: left;
+    }
+}
+
+@media (max-width: 500px) {
+    .header__link-container {
+        margin: 0 0 13px 0;
+    }
+    .header__link-container:last-of-type  {
+        margin-bottom: 0;
+    }
 }

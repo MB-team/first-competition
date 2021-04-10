@@ -5,3 +5,9 @@
   line-height: 1.65;
   max-width: 268px;
 }
+
+@media (max-width: 600px) {
+  .quotes__text {
+    max-width: 90%;
+  }
+}

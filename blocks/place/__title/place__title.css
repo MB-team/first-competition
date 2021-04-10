@@ -4,3 +4,9 @@
     line-height: 41px;
     margin: 71px 0 0 0;
 }
+
+@media (max-width: 700px) {
+    .place__title {
+        margin-bottom: 23px;
+    }
+}
