@@ -5,3 +5,9 @@
   margin-left: 80px;
   grid-area: description;
 }
+
+@media (max-width: 768px) {
+  .place__description {
+    margin: 0 36px;
+  }
+}
